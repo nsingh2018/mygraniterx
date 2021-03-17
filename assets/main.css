@@ -1,0 +1,1415 @@
+@font-face {
+    font-family: 'BebasNeueRegular';
+    src: url('/static/fonts/BebasNeue-webfont.eot');
+    src: url('/static/fonts/BebasNeue-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/static/fonts/BebasNeue-webfont.woff') format('woff'),
+         url('/static/fonts/BebasNeue-webfont.ttf') format('truetype'),
+         url('/static/fonts/BebasNeue-webfont.svg#BebasNeueRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'OpenSansLight';
+    src: url('/static/fonts/OpenSans-Light-webfont.eot');
+    src: url('/static/fonts/OpenSans-Light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/static/fonts/OpenSans-Light-webfont.woff') format('woff'),
+         url('/static/fonts/OpenSans-Light-webfont.ttf') format('truetype'),
+         url('/static/fonts/OpenSans-Light-webfont.svg#OpenSansLight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'OpenSansLightItalic';
+    src: url('/static/fonts/OpenSans-LightItalic-webfont.eot');
+    src: url('/static/fonts/OpenSans-LightItalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/static/fonts/OpenSans-LightItalic-webfont.woff') format('woff'),
+         url('/static/fonts/OpenSans-LightItalic-webfont.ttf') format('truetype'),
+         url('/static/fonts/OpenSans-LightItalic-webfont.svg#OpenSansLightItalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'OpenSansRegular';
+    src: url('/static/fonts/OpenSans-Regular-webfont.eot');
+    src: url('/static/fonts/OpenSans-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/static/fonts/OpenSans-Regular-webfont.woff') format('woff'),
+         url('/static/fonts/OpenSans-Regular-webfont.ttf') format('truetype'),
+         url('/static/fonts/OpenSans-Regular-webfont.svg#OpenSansRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'OpenSansItalic';
+    src: url('/static/fonts/OpenSans-Italic-webfont.eot');
+    src: url('/static/fonts/OpenSans-Italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/static/fonts/OpenSans-Italic-webfont.woff') format('woff'),
+         url('/static/fonts/OpenSans-Italic-webfont.ttf') format('truetype'),
+         url('/static/fonts/OpenSans-Italic-webfont.svg#OpenSansItalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'OpenSansSemibold';
+    src: url('/static/fonts/OpenSans-Semibold-webfont.eot');
+    src: url('/static/fonts/OpenSans-Semibold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/static/fonts/OpenSans-Semibold-webfont.woff') format('woff'),
+         url('/static/fonts/OpenSans-Semibold-webfont.ttf') format('truetype'),
+         url('/static/fonts/OpenSans-Semibold-webfont.svg#OpenSansSemibold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'OpenSansSemiboldItalic';
+    src: url('/static/fonts/OpenSans-SemiboldItalic-webfont.eot');
+    src: url('/static/fonts/OpenSans-SemiboldItalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/static/fonts/OpenSans-SemiboldItalic-webfont.woff') format('woff'),
+         url('/static/fonts/OpenSans-SemiboldItalic-webfont.ttf') format('truetype'),
+         url('/static/fonts/OpenSans-SemiboldItalic-webfont.svg#OpenSansSemiboldItalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'OpenSansBold';
+    src: url('/static/fonts/OpenSans-Bold-webfont.eot');
+    src: url('/static/fonts/OpenSans-Bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/static/fonts/OpenSans-Bold-webfont.woff') format('woff'),
+         url('/static/fonts/OpenSans-Bold-webfont.ttf') format('truetype'),
+         url('/static/fonts/OpenSans-Bold-webfont.svg#OpenSansBold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'OpenSansBoldItalic';
+    src: url('/static/fonts/OpenSans-BoldItalic-webfont.eot');
+    src: url('/static/fonts/OpenSans-BoldItalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/static/fonts/OpenSans-BoldItalic-webfont.woff') format('woff'),
+         url('/static/fonts/OpenSans-BoldItalic-webfont.ttf') format('truetype'),
+         url('/static/fonts/OpenSans-BoldItalic-webfont.svg#OpenSansBoldItalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'OpenSansExtrabold';
+    src: url('/static/fonts/OpenSans-ExtraBold-webfont.eot');
+    src: url('/static/fonts/OpenSans-ExtraBold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/static/fonts/OpenSans-ExtraBold-webfont.woff') format('woff'),
+         url('/static/fonts/OpenSans-ExtraBold-webfont.ttf') format('truetype'),
+         url('/static/fonts/OpenSans-ExtraBold-webfont.svg#OpenSansExtrabold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'OpenSansExtraboldItalic';
+    src: url('/static/fonts/OpenSans-ExtraBoldItalic-webfont.eot');
+    src: url('/static/fonts/OpenSans-ExtraBoldItalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/static/fonts/OpenSans-ExtraBoldItalic-webfont.woff') format('woff'),
+         url('/static/fonts/OpenSans-ExtraBoldItalic-webfont.ttf') format('truetype'),
+         url('/static/fonts/OpenSans-ExtraBoldItalic-webfont.svg#OpenSansExtraboldItalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'AmbleLight';
+    src: url('/static/fonts/Amble-Light-webfont.eot');
+    src: url('/static/fonts/Amble-Light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/static/fonts/Amble-Light-webfont.woff') format('woff'),
+         url('/static/fonts/Amble-Light-webfont.ttf') format('truetype'),
+         url('/static/fonts/Amble-Light-webfont.svg#AmbleLight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'AmbleLightItalic';
+    src: url('/static/fonts/Amble-LightItalic-webfont.eot');
+    src: url('/static/fonts/Amble-LightItalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/static/fonts/Amble-LightItalic-webfont.woff') format('woff'),
+         url('/static/fonts/Amble-LightItalic-webfont.ttf') format('truetype'),
+         url('/static/fonts/Amble-LightItalic-webfont.svg#AmbleLightItalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'AmbleRegular';
+    src: url('/static/fonts/Amble-Regular-webfont.eot');
+    src: url('/static/fonts/Amble-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/static/fonts/Amble-Regular-webfont.woff') format('woff'),
+         url('/static/fonts/Amble-Regular-webfont.ttf') format('truetype'),
+         url('/static/fonts/Amble-Regular-webfont.svg#AmbleRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'AmbleItalic';
+    src: url('/static/fonts/Amble-Italic-webfont.eot');
+    src: url('/static/fonts/Amble-Italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/static/fonts/Amble-Italic-webfont.woff') format('woff'),
+         url('/static/fonts/Amble-Italic-webfont.ttf') format('truetype'),
+         url('/static/fonts/Amble-Italic-webfont.svg#AmbleItalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'AmbleBold';
+    src: url('/static/fonts/Amble-Bold-webfont.eot');
+    src: url('/static/fonts/Amble-Bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/static/fonts/Amble-Bold-webfont.woff') format('woff'),
+         url('/static/fonts/Amble-Bold-webfont.ttf') format('truetype'),
+         url('/static/fonts/Amble-Bold-webfont.svg#AmbleBold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'AmbleBoldItalic';
+    src: url('/static/fonts/Amble-BoldItalic-webfont.eot');
+    src: url('/static/fonts/Amble-BoldItalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/static/fonts/Amble-BoldItalic-webfont.woff') format('woff'),
+         url('/static/fonts/Amble-BoldItalic-webfont.ttf') format('truetype'),
+         url('/static/fonts/Amble-BoldItalic-webfont.svg#AmbleBoldItalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'AmbleLightCondensed';
+    src: url('/static/fonts/Amble-LightCondensed-webfont.eot');
+    src: url('/static/fonts/Amble-LightCondensed-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/static/fonts/Amble-LightCondensed-webfont.woff') format('woff'),
+         url('/static/fonts/Amble-LightCondensed-webfont.ttf') format('truetype'),
+         url('/static/fonts/Amble-LightCondensed-webfont.svg#AmbleLightCondensed') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'AmbleLightCondensedItalic';
+    src: url('/static/fonts/Amble-LightCondensedItalic-webfont.eot');
+    src: url('/static/fonts/Amble-LightCondensedItalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/static/fonts/Amble-LightCondensedItalic-webfont.woff') format('woff'),
+         url('/static/fonts/Amble-LightCondensedItalic-webfont.ttf') format('truetype'),
+         url('/static/fonts/Amble-LightCondensedItalic-webfont.svg#AmbleLightCondensedItalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'BitterItalic';
+    src: url('/static/fonts/Bitter-Italic-webfont.eot');
+    src: url('/static/fonts/Bitter-Italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/static/fonts/Bitter-Italic-webfont.woff') format('woff'),
+         url('/static/fonts/Bitter-Italic-webfont.ttf') format('truetype'),
+         url('/static/fonts/Bitter-Italic-webfont.svg#BitterItalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/* ==========================================================================
+   HTML5 Boilerplate styles - h5bp.com (generated via initializr.com)
+   ========================================================================== */
+
+html,
+button,
+input,
+select,
+textarea {
+    color: #222;
+}
+
+body {
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+img {
+    vertical-align: middle;
+    border: 0;
+}
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.chromeframe {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+
+/* ===== Initializr Styles ==================================================
+   Author: Jonathan Verrecchia - verekia.com/initializr/responsive-template
+   ========================================================================== */
+
+body {
+    font: 14px/24px 'OpenSansRegular', Arial, sans-serif;
+    background: #E0E0E0;
+}
+
+.wrapper {
+    width: 90%;
+    margin: 0 5%;
+    padding: 0 0 20px 0;
+}
+
+/* ===================
+    ALL: Orange Theme
+   =================== */
+
+.main aside.blue { border-top: 20px solid #48a9c3; }
+.main aside.green { border-top: 20px solid #a0b744; }
+.main aside.yellow { border-top: 20px solid #e7b046; }
+.main aside.orange { border-top: 20px solid #d17c47; }
+.main aside.red { border-top: 20px solid #8b0000; }
+
+.header-container { background: #FAFAFA; }
+
+.main-container { background: #ECECEC; }
+
+.footer-container,
+.main aside {
+    background: #E0E0E0;
+}
+
+.title {
+    margin: 49px 0;
+}
+
+/* ==============
+    MOBILE: Menu
+   ============== */
+
+nav { width: 100%; height: 77px; }
+
+nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+nav li a {
+    display: block;
+    margin-bottom: 10px;
+    padding: 15px 0;
+
+    text-align: center;
+    text-decoration: none;
+
+    color: #343434;
+
+    border-right: 1px solid #CACACA;
+}
+
+nav li a:hover,
+nav li a:visited {
+    /* color: white; */
+}
+
+nav li a:hover {
+    text-decoration: underline;
+}
+
+/* ==============
+    MOBILE: Main
+   ============== */
+
+.main {
+    padding: 0;
+}
+
+.main article h1 {
+    font: 40px/48px 'BebasNeueRegular';
+}
+
+.main aside {
+    color: #414141;
+    padding: 0px 5% 10px;
+    border-bottom: 4px solid #ababab;
+	margin: 0 0 10px 0;
+	font: 13px/24px 'OpenSansRegular';
+}
+
+.footer-container footer {
+    padding: 20px 0;
+}
+
+/* ===============
+    ALL: IE Fixes
+   =============== */
+
+.ie7 .title {
+    padding-top: 20px;
+}
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+ul { list-style-image: url(/static/img/li_arrow.gif); }
+
+.ul-carousel {
+    list-style-image: none;
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+.header-container { height:224px; }
+.footer-container { height:150px; }
+
+.main h2 { font: 30px/38px 'BebasNeueRegular', Arial, sans-serif; }
+
+.main h3 { font: 24px/32px 'BebasNeueRegular', Arial, sans-serif; }
+
+.highlights { margin: 0 0 20px 0; }
+.highlights .highlight { -webkit-border-radius: 10px;-moz-border-radius: 10px;border-radius: 10px;width: 198px;height:360px;text-align: center;padding: 20px;background: #232323;color: #fff;border: 5px solid #cdcdcd;float: left;margin: 0 10px 0 0; }
+	.highlights .highlight.blue
+	{
+		cursor: pointer;
+		background: #48a9c3; /* Old browsers */
+		background: -moz-linear-gradient(top,  #48a9c3 0%, #0088ad 100%); /* FF3.6+ */
+		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#48a9c3), color-stop(100%,#0088ad)); /* Chrome,Safari4+ */
+		background: -webkit-linear-gradient(top,  #48a9c3 0%,#0088ad 100%); /* Chrome10+,Safari5.1+ */
+		background: -o-linear-gradient(top,  #48a9c3 0%,#0088ad 100%); /* Opera 11.10+ */
+		background: -ms-linear-gradient(top,  #48a9c3 0%,#0088ad 100%); /* IE10+ */
+		background: linear-gradient(to bottom,  #48a9c3 0%,#0088ad 100%); /* W3C */
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#48a9c3', endColorstr='#0088ad',GradientType=0 ); /* IE6-9 */
+	}
+	.highlights .highlight.green
+	{
+		cursor: pointer;
+		background: #a2b949; /* Old browsers */
+		background: -moz-linear-gradient(top,  #a2b949 0%, #7e9e00 100%); /* FF3.6+ */
+		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#a2b949), color-stop(100%,#7e9e00)); /* Chrome,Safari4+ */
+		background: -webkit-linear-gradient(top,  #a2b949 0%,#7e9e00 100%); /* Chrome10+,Safari5.1+ */
+		background: -o-linear-gradient(top,  #a2b949 0%,#7e9e00 100%); /* Opera 11.10+ */
+		background: -ms-linear-gradient(top,  #a2b949 0%,#7e9e00 100%); /* IE10+ */
+		background: linear-gradient(to bottom,  #a2b949 0%,#7e9e00 100%); /* W3C */
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a2b949', endColorstr='#7e9e00',GradientType=0 ); /* IE6-9 */
+	}
+	.highlights .highlight.yellow
+	{
+		cursor: pointer;
+		background: #e8b148; /* Old browsers */
+		background: -moz-linear-gradient(top,  #e8b148 0%, #e09400 100%); /* FF3.6+ */
+		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#e8b148), color-stop(100%,#e09400)); /* Chrome,Safari4+ */
+		background: -webkit-linear-gradient(top,  #e8b148 0%,#e09400 100%); /* Chrome10+,Safari5.1+ */
+		background: -o-linear-gradient(top,  #e8b148 0%,#e09400 100%); /* Opera 11.10+ */
+		background: -ms-linear-gradient(top,  #e8b148 0%,#e09400 100%); /* IE10+ */
+		background: linear-gradient(to bottom,  #e8b148 0%,#e09400 100%); /* W3C */
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e8b148', endColorstr='#e09400',GradientType=0 ); /* IE6-9 */
+	}
+	.highlights .highlight.orange
+	{
+		cursor: pointer;
+		background: #d27d49; /* Old browsers */
+		background: -moz-linear-gradient(top,  #d27d49 0%, #c14a01 100%); /* FF3.6+ */
+		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#d27d49), color-stop(100%,#c14a01)); /* Chrome,Safari4+ */
+		background: -webkit-linear-gradient(top,  #d27d49 0%,#c14a01 100%); /* Chrome10+,Safari5.1+ */
+		background: -o-linear-gradient(top,  #d27d49 0%,#c14a01 100%); /* Opera 11.10+ */
+		background: -ms-linear-gradient(top,  #d27d49 0%,#c14a01 100%); /* IE10+ */
+		background: linear-gradient(to bottom,  #d27d49 0%,#c14a01 100%); /* W3C */
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d27d49', endColorstr='#c14a01',GradientType=0 ); /* IE6-9 */
+	}
+	.highlights .highlight.vrxorange
+	{
+		cursor: pointer;
+		background: #f28b00; /* Old browsers */
+		background: -moz-linear-gradient(top,  #f28b00 0%, #a65f00 100%); /* FF3.6+ */
+		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f28b00), color-stop(100%,#a65f00)); /* Chrome,Safari4+ */
+		background: -webkit-linear-gradient(top,  #f28b00 0%,#a65f00 100%); /* Chrome10+,Safari5.1+ */
+		background: -o-linear-gradient(top,  #f28b00 0%,#a65f00 100%); /* Opera 11.10+ */
+		background: -ms-linear-gradient(top,  #f28b00 0%,#a65f00 100%); /* IE10+ */
+		background: linear-gradient(to bottom,  #f28b00 0%,#a65f00 100%); /* W3C */
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f28b00', endColorstr='#a65f00',GradientType=0 ); /* IE6-9 */
+	}
+	.highlights .highlight.last { margin: 0; }
+
+.nav-menu
+{
+	font: 16px/26px 'AmbleRegular', Arial, sans-serif;
+	text-transform: uppercase;
+	background: #eeeeee; /* Old browsers */
+	background: -moz-linear-gradient(top,  rgba(238,238,238,1) 0%, rgba(204,204,204,1) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(238,238,238,1)), color-stop(100%,rgba(204,204,204,1))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  rgba(238,238,238,1) 0%,rgba(204,204,204,1) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  rgba(238,238,238,1) 0%,rgba(204,204,204,1) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  rgba(238,238,238,1) 0%,rgba(204,204,204,1) 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  rgba(238,238,238,1) 0%,rgba(204,204,204,1) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eeeeee', endColorstr='#cccccc',GradientType=0 ); /* IE6-9 */
+}
+
+/**
+ * Highlight the corresponding navigation item when on any given page.
+ */
+.nav-menu li a:hover,
+div.home li.home>a,
+div.plan_information li.plan_information>a,
+div.contact li.contact>a,
+div.glossary li.glossary>a,
+div.about_us li.about_us>a,
+div.resources li.resources>a,
+div.members li.members>a,
+div.providers li.providers>a,
+div.mtm li.mtm>a,
+div.forms_links li.forms_links>a,
+div.sales_links li.sales_links>a,
+div.formulary_info li.formulary_info>a,
+div.learn_more li.learn_more>a,
+div.providers li.providers>a
+{
+	color:#fff;
+	text-decoration:underline;
+	background: #48a9c3; /* Old browsers */
+	background: -moz-linear-gradient(top,  #48a9c3 0%, #0088ad 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#48a9c3), color-stop(100%,#0088ad)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #48a9c3 0%,#0088ad 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #48a9c3 0%,#0088ad 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #48a9c3 0%,#0088ad 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #48a9c3 0%,#0088ad 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#48a9c3', endColorstr='#0088ad',GradientType=0 ); /* IE6-9 */
+}
+
+
+
+div.providers .main-container {
+    background: #E8EBFF;
+}
+
+.current-page {
+    color:#fff;
+    text-decoration:underline;
+    background: #48a9c3; /* Old browsers */
+    background: -moz-linear-gradient(top,  #48a9c3 0%, #0088ad 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#48a9c3), color-stop(100%,#0088ad)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  #48a9c3 0%,#0088ad 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  #48a9c3 0%,#0088ad 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  #48a9c3 0%,#0088ad 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  #48a9c3 0%,#0088ad 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#48a9c3', endColorstr='#0088ad',GradientType=0 ); /* IE6-9 */
+}
+
+.copy-privacy { font-size: 12px; }
+	.copy-privacy a { color: #1D1D1D; }
+
+.footer-logo { float:left; }
+.footer-menu { font: 14px/20px 'AmbleRegular', Arial, sans-serif;float:right; }
+	.footer-menu ul { margin: 0;padding: 0;list-style: none;list-style-image: none; }
+		.footer-menu ul li { float: left;padding: 6px;font-size:12px;text-transform: uppercase; }
+			.footer-menu ul li a { color: #343434;text-decoration:none; }
+			.footer-menu ul li a:hover { color: #343434;text-decoration:underline; }
+
+.splash { background: url(/static/img/wasatch-mtns.jpg) 0px -90px;height: 300px;margin: 0 0 20px 0; }
+	.splash .splash-text { font: 40px/48px 'BitterItalic';
+		color: #fff;
+		text-align: right;
+		float: right;
+		display: inline-block;
+		position: relative;
+		top: 235px;
+		width: 500px;
+		margin: 0 25px 0 0;
+	}
+.no-splash { padding-top: 20px !important; }
+
+.quick-no { font: 40px/48px 'BebasNeueRegular', Arial, sans-serif; }
+
+.med-notice { margin: 20px 0 0 0;float: left;font: 12px/18px 'OpenSansItalic', Arial, sans-serif; }
+
+.glossary-links { background-color: #f1f1f1; border: 2px solid #ccc; text-align: center; padding-top: 13px; padding-bottom: 13px;font-size:12px; }
+
+.section-links {
+    background-color: #f1f1f1;
+    border: 2px solid #ccc;
+    text-align: left;
+    font-size: 12px;
+    padding: 13px 0px 13px 0px;
+}
+
+.section-links-ul {
+    list-style-image: none;
+    list-style-type: none;
+    padding: 0px 0px 0px 20px;
+}
+
+.section-links-ul li {
+    width: 90%;
+}
+
+.section-links-ul-inner {
+    margin: 0px 0px 12px 0px;
+}
+
+.head-comps { margin: 20px 0 0 0; }
+	.head-comps .logo { float:left;margin: 0 0 15px 0; }
+	.head-comps .non-logo { position: relative;top: 50px;text-align: right; float: right; }
+
+.breadcrumbs {
+    font: 13px 'OpenSansRegular', Arial, sans-serif;
+    text-transform: uppercase;
+}
+
+.link-icon { margin:0 2px; }
+
+.notes { font-style: italic;font-size: 12px;line-height: 16px;width: 90%; }
+
+.required {color:#ff0000;font-weight:bold;}
+
+/**************************
+*                         *
+*   Medicare Info Table   *
+*                         *
+**************************/
+
+.divTable {
+    width: 700px;
+    margin: 0px 0px 10px 0px;
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-top-color: #cdcdcd;
+}
+
+.divHeaderRow {
+    font-weight: bold;
+    background: #dedede;
+}
+
+.divRow {
+    border-style: solid;
+    border-width: 1px;
+    border-color: #cdcdcd;
+    border-top-style: none;
+}
+
+.divCell {
+    float: left;
+    padding-left: 5px;
+}
+
+.divCell-left {
+    width: 200px;
+}
+
+.divCell-right {
+    width: 480px;
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-left-color: #cdcdcd;
+}
+
+.divCell-clear {
+    clear: both;
+}
+
+/*******************
+*                  *
+* Formulary Tables *
+*                  *
+*******************/
+
+.formularyTable {
+    width: 100%;
+    /*margin: 0px 0px 10px 0px;*/
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-left-color: #cdcdcd;
+    font-size: 74%;
+}
+
+.formularyHeaderCell {
+    font-weight: bold;
+    background: #dedede;
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-top-color: #cdcdcd;
+}
+
+.formularyRow {
+}
+
+.formularyCell {
+    float: left;
+    padding: 0px 0px 0px 5px;
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-right-color: #cdcdcd;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: #cdcdcd;
+}
+
+.formularyCol1 {
+    width: 23.5%;
+}
+
+.formularyCol2 {
+    width: 13.5%;
+}
+
+.formularyCol3 {
+    width: 11.5%;
+}
+
+.formularyCol4 {
+    width: 16.5%;
+}
+
+.formularyCol5 {
+    width: 20.5%;
+}
+
+.formularyCol6 {
+    width: 8.5%;
+}
+
+
+.formularyCell-clear {
+    clear: both;
+}
+
+/*****************
+*                *
+*   Email Form   *
+*                *
+*****************/
+
+#email-form {
+    /* margin: 20px 0px 0px 50px; */
+}
+
+.form-left-col {
+    float: left;
+    width: 291px;
+}
+
+.form-left-sub-col {
+    float: left;
+}
+
+.form-right-col {
+    float: right;
+    width: 262px;
+    padding-left: 30px;
+}
+
+.form-right-sub-col {
+    float: right;
+    margin-right: 31px !important;
+}
+
+.input-sm {
+    width: 100px;
+}
+
+.input-med {
+    width: 250px;
+}
+
+.input-lg {
+    width: 573px;
+}
+
+.text-input {
+    padding: 4px;
+    background: #efefef;
+    border: 1px solid #cdcdcd;
+    font-size: 1.3em;
+}
+
+.input-textarea, .email-textarea {
+    width: 98%;
+    height: 150px;
+    padding: 4px;
+    background: #efefef;
+    border: 1px solid #cdcdcd;
+    font-size: 1.3em;
+}
+
+#email-form-section { padding: 30px 30px 0px 30px; }
+
+#email-button {
+    height: 40px;
+    float: right;
+}
+
+#cancel-email {
+    float: right;
+    margin: 7px 0px 0px 5px;
+    color: #2e6e9e;
+}
+
+.form-group-text {
+    height: 80px;
+}
+
+.form-group {
+    margin: 0px 0px 6px 0px;
+}
+
+.form-group-radio {
+    margin: 0px 0px 10px 0px;
+}
+
+.form-clear {
+    clear: both;
+}
+
+.form-btn {
+    /* These need to be important, as they override jQuery UI */
+    cursor: pointer !important;
+    color: #fff !important;
+    text-shadow: -1px -1px 0 rgba(0,0,0,0.3) !important;
+    background-image: -webkit-linear-gradient(top,#00a4e4,#2356ad) !important;
+    background-image: -moz-linear-gradient(top,#00a4e4,#2356ad) !important;
+    background-image: -o-linear-gradient(top,#00a4e4,#2356ad) !important;
+    background-image: -ms-linear-gradient(top,#00a4e4,#2356ad) !important;
+    background-image: linear-gradient(top,#00a4e4,#2356ad) !important;
+    border-color: #2356ad! important;
+    font-size: 12px !important;
+}
+
+.form-btn:hover {
+    background-image: -webkit-linear-gradient(top,#2356ad,#00a4e4) !important;
+    background-image: -moz-linear-gradient(top,#2356ad,#00a4e4) !important;
+    background-image: -o-linear-gradient(top,#2356ad,#00a4e4) !important;
+    background-image: -ms-linear-gradient(top,#2356ad,#00a4e4) !important;
+    background-image: linear-gradient(top,#2356ad,#00a4e4) !important;
+}
+
+.form-btn:active {
+    background-image: none !important;
+    background-color: #2356ad !important;
+}
+
+.form-file-input {
+    margin: 0px 0px 15px 0px;
+}
+
+.form-hr {
+    border-top: 1px solid #0088ad;
+    color: #0088ad;
+    background: #0088ad;
+}
+
+.form-ul {
+    list-style-image: none;
+    list-style-type: none;
+    padding: 0;
+}
+
+#online-form-btn,
+#order-id-card-form-btn {
+    padding: 10px 6px;
+    margin: 20px 0px 0px 0px;
+}
+
+.textarea-group {
+    margin: 20px 0 0 0;
+}
+
+.disclaimer-btn {
+    float: left;
+    margin: 14px 0 6px 0;
+}
+
+.disclaimer-cancel {
+    margin: 40px 0 0 15px;
+    float: left;
+}
+
+section.forms-list h3 {
+    margin-bottom: 0;
+}
+
+section.forms-list p {
+    margin: 0;
+}
+
+section.forms-list ul {
+    margin-bottom: 3em;
+}
+
+#formulary-faq-toc li {
+    margin: 0;
+}
+
+/***************************************
+*                                      *
+*  jQuery UI Datepicker CSS Overrides  *
+*                                      *
+***************************************/
+
+#ui-datepicker-div {
+    border: 1px solid #ababab !important;
+}
+
+.ui-datepicker-header {
+    background: #0088ad !important;
+}
+
+.ui-datepicker .ui-state-default {
+    background: #efefef !important;
+    border: 1px solid #cdcdcd !important;
+    color: #000 !important;
+}
+
+/******************************
+*                             *
+*  Other jQuery UI Overrides  *
+*                             *
+*******************************/
+
+.ui-state-highlight-green {
+    border: 1px solid #999C9A;
+    background: #80E991;
+    color: #363636;
+}
+
+span.ext { background: url(/static/img/extlink.png) right center no-repeat; padding-right: 12px; }
+
+section ul li {
+    margin: 7px 0;
+}
+
+.font-change { margin-top: 48px; }
+
+.formulary-iframe {
+    height: 920px;
+    width: 800px;
+    border: 0px;
+    margin: 30px 0px 0px 0px;
+}
+
+label.error {
+    display: block;
+    color: red;
+    font-size: 11px;
+}
+
+.noscript {
+    float: left;
+    font-size: 100%;
+    margin: 0 10px;
+    padding: 0 0 0 20px;
+    width: 61%;
+}
+
+.recaptcha_input_area {
+    padding-top: 8px !important;
+}
+
+legend { display: none; }
+
+.jump-to-link {
+    position: absolute;
+    left: -10em;
+    top: -10em;
+}
+
+.jump-to-link:focus, .jump-to-link:active {
+    position: absolute;
+    left: .5em;
+    top: .5em;
+    background-color: lightblue;
+}
+
+.career-page-link {
+    margin-bottom: 0;
+}
+
+.career-page-link a {
+    text-decoration: none;
+    color: #222;
+}
+
+.career-page-link a:visited {
+    color: #222;
+}
+
+.career-h2 {
+    margin-bottom: 0;
+}
+
+.member-square-section {
+    width: 125%;
+}
+
+.member-square-section .highlight {
+    height: 260px !important;
+    width: 300px !important;
+    cursor: auto !important;
+}
+
+.member-square-section .highlight a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.member-square-section .highlight a:hover {
+    text-decoration: underline;
+}
+
+.member-square-section .blue,
+.member-square-section .green {
+    margin-bottom: 10px;
+}
+
+.member-square-section .vrxorange {
+    margin-bottom: 10px;
+    width: 660px !important;
+    height: 340px !important;
+    text-align: left;
+}
+
+.member-square-section .vrxorange h3 {
+    text-align: center;
+}
+
+.member-square-section ul {
+    text-align: left;
+}
+
+.member-square-section li {
+    margin: 0;
+}
+
+.member-square-section h3 {
+    margin: 0.5em 0;
+}
+
+.member-square-section .visit-now {
+    /* Natural Density */
+    background: -moz-linear-gradient(top,  rgba(0,0,0,0) 0%, rgba(0,0,0,0.65) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0)), color-stop(100%,rgba(0,0,0,0.65))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.65) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.65) 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.65) 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.65) 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#a6000000',GradientType=0 ); /* IE6-9 */
+
+    /* Grey Black 3D  */
+    /* background: rgb(181,189,200); /* Old browsers */
+    /* background: -moz-linear-gradient(top,  rgba(181,189,200,1) 0%, rgba(130,140,149,1) 36%, rgba(40,52,59,1) 100%); /* FF3.6+ */
+    /* background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(181,189,200,1)), color-stop(36%,rgba(130,140,149,1)), color-stop(100%,rgba(40,52,59,1))); /* Chrome,Safari4+ */
+    /* background: -webkit-linear-gradient(top,  rgba(181,189,200,1) 0%,rgba(130,140,149,1) 36%,rgba(40,52,59,1) 100%); /* Chrome10+,Safari5.1+ */
+    /* background: -o-linear-gradient(top,  rgba(181,189,200,1) 0%,rgba(130,140,149,1) 36%,rgba(40,52,59,1) 100%); /* Opera 11.10+ */
+    /* background: -ms-linear-gradient(top,  rgba(181,189,200,1) 0%,rgba(130,140,149,1) 36%,rgba(40,52,59,1) 100%); /* IE10+ */
+    /* background: linear-gradient(to bottom,  rgba(181,189,200,1) 0%,rgba(130,140,149,1) 36%,rgba(40,52,59,1) 100%); /* W3C */
+    /* filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b5bdc8', endColorstr='#28343b',GradientType=0 ); /* IE6-9 */
+
+    border-radius: 5px;
+    width: 55%;
+    margin-left: 65px;
+    padding: 10px 0 10px 7px;
+}
+
+.member-square-section .visit-now:hover {
+    cursor: pointer;
+}
+
+.member-square-section .green-h3 {
+    margin-top: 38px;
+}
+
+.member-square-section .yellow-h3 {
+    margin-top: 132px;
+    margin-left: 155px;
+}
+
+.member-square-section .orange-h3 {
+    margin-top: 60px;
+}
+
+.member-square-section .blue-h3 {
+    margin-top: 38px;
+}
+
+.member-square-section .vrxorange-h3 {
+    margin-top: 15px;
+    margin-left: 153px;
+}
+
+.temp-id-card {
+    width: 3.375in;
+    height: 2.125in;
+    border: 1px black solid;
+}
+
+.temp-id-card-back {
+    margin-top: 5px;
+}
+
+.print-id-card-form {
+    width: auto;
+    height: auto;
+    background: none;
+}
+
+.card-meta {
+    font-size: 10px;
+    position: relative;
+}
+
+    .card-name { position: absolute; left: 111px; top: 62px; }
+    .card-rxid { position: absolute; left: 46px; top: 81px; }
+    .card-issuer { position: absolute; left: 46px; top: 99px; }
+    .card-rxbin { position: absolute; left: 46px; top: 116px; }
+    .card-rxpch { position: absolute; left: 46px; top: 133px; }
+    .card-rxgroup { position: absolute; left: 46px; top: 152px; }
+    .card-dmbaid { position: absolute; left: 264px; top: 81px; font-size: 8px; }
+    .card-primarycare { position: absolute; left: 284px; top: 109px; font-size: 8px; }
+    .card-specialists { position: absolute; left: 284px; top: 123px; font-size: 8px; }
+    .card-urgentcare { position: absolute; left: 284px; top: 137px; font-size: 8px; }
+    .card-emergencyroom { position: absolute; left: 284px; top: 152px; font-size: 8px; }
+
+.input-disabled {
+    background: #E0E0E0;
+}
+
+#benefit-highlights-table {
+    width: 176%;
+    margin-top: 2em;
+}
+
+    #benefit-highlights-table th,
+    #benefit-highlights-table td {
+        border: 1px solid #cdcdcd;
+        padding: 0px 5px 0px 5px;
+    }
+
+    #benefit-highlights-table .blue {
+        background: #8EAADB;
+    }
+
+    #benefit-highlights-table .orange {
+        background: #d17c47;
+    }
+
+    #benefit-highlights-table .green {
+        background: #A8D08D;
+    }
+
+    #benefit-highlights-table .grey {
+        background: #D9D9D9;
+    }
+
+#article-privacy h3 {
+    margin-bottom: 0;
+}
+
+/*
+   FWA Widget Aside Overrides
+ */
+.main aside.fwa-widget {
+    border-bottom: none;
+    background: none;
+    padding-left: 0;
+    padding-right: 10%;
+}
+
+/* ==========================================================================
+   Media Queries
+   ========================================================================== */
+
+@media only screen and (min-width: 480px) {
+
+/* ====================
+    INTERMEDIATE: Menu
+   ==================== */
+
+    nav li a {
+        float: left;
+        /* width: 27%;
+        margin: 0 1.7%; */
+        padding: 25px 1.8%;
+        margin-bottom: 0;
+    }
+
+    nav li:first-child a {
+        margin-left: 0;
+    }
+
+    nav li:last-child a {
+        margin-right: 0;
+    }
+
+/* ========================
+    INTERMEDIATE: IE Fixes
+   ======================== */
+
+    nav ul li {
+        display: inline;
+    }
+
+    .oldie nav a {
+        margin: 0 0.7%;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+
+/* ====================
+    WIDE: CSS3 Effects
+   ==================== */
+
+    .header-container,
+    .main aside {
+        /* -webkit-box-shadow: 0 5px 10px #aaa;
+           -moz-box-shadow: 0 5px 10px #aaa;
+                box-shadow: 0 5px 10px #aaa; */
+    	color: #414141;
+    }
+
+/* ============
+    WIDE: Menu
+   ============ */
+
+    .title {
+        /* float: left; */
+        margin: 49px 0;
+    }
+
+    nav {
+        /* float: right; */
+        width: 100%;
+        height: 77px;
+    }
+
+/* ============
+    WIDE: Main
+   ============ */
+
+    .main article {
+        float: left;
+        width: 57%;
+        min-height: 800px;
+    }
+
+    .main aside {
+        float: right;
+        width: 28%;
+        border-bottom: 4px solid #ababab;
+        margin: 0 0 10px 0;
+    }
+}
+
+@media only screen and (min-width: 1140px) {
+
+/* ===============
+    Maximal Width
+   =============== */
+
+    .wrapper {
+        width: 1024px; /* 1140px - 10% for margins */
+        margin: 0 auto;
+        padding: 0 0 20px 0;
+    }
+}
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+.ir {
+    background-color: transparent;
+    border: 0;
+    overflow: hidden;
+    *text-indent: -9999px;
+}
+
+.ir:before {
+    content: "";
+    display: block;
+    width: 0;
+    height: 150%;
+}
+
+.hidden {
+    display: none !important;
+    visibility: hidden;
+}
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+.invisible {
+    visibility: hidden;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+/* ==========================================================================
+   Print styles
+   ========================================================================== */
+
+@media print {
+    * {
+        background: transparent !important;
+        color: #000 !important; /* Black prints faster: h5bp.com/s */
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    /*
+     * Don't show links for images, or javascript/internal links
+     */
+
+    .ir a:after,
+    a[href^="javascript:"]:after,
+    a[href^="#"]:after {
+        content: "";
+    }
+
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    thead {
+        display: table-header-group; /* h5bp.com/t */
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    @page {
+        margin: 0.5cm;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+
+    header,
+    footer,
+    .breadcrumbs,
+    #pDebug,
+    #online-form-btn,
+    .med-notice {
+        display: none;
+    }
+}
+
+
+/* ==========================================================================
+   Layout styles
+   ========================================================================== */
+.top-40 {
+    margin-top: 40px;
+}
